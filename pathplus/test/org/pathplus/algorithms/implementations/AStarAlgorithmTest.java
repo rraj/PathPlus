@@ -9,7 +9,7 @@ import org.pathplus.utils.state.implementations.FifteenPuzzleState;
 
 public class AStarAlgorithmTest {
 
-	@Test (timeout = 300000)
+	//@Test (timeout = 300000)
 	public void testSearch() {
 		AStarAlgorithm<FifteenPuzzleState> aStar = new AStarAlgorithm<FifteenPuzzleState>();
 
